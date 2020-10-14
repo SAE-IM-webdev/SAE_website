@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Blog Part</title>
+	<title>Events Part</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
@@ -99,44 +99,11 @@
         <div class="container">
             <div class="row row-header">
                 <div class="col-12 col-sm-6">
-                    <h1>BLOGS</h1>
+                    <h1>EVENTS</h1>
                 </div>
             </div>
         </div>
     </header>
-
-<!---Blog content-->
-
-<div class="row">
-  <div class="leftcolumn">
-    <div class="card">
-      <h2>TITLE HEADING</h2>
-      <h5>Title description, Dec 7, 2017</h5>
-      <div class="fakeimg" style="background-image: url(img/blog3.png); height:400px;"></div>
-      <p>Some text..</p>
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-    </div>
-    <div class="card">
-      <h2>TITLE HEADING</h2>
-      <h5>Title description, Sep 2, 2017</h5>
-      <div class="fakeimg" style="background-image: url(img/blog.2.png); height:400px;"></div>
-      <p>Some text..</p>
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-    </div>
-    <div class="card">
-      <h2>TITLE HEADING</h2>
-      <h5>Title description, Aug 27, 2017</h5>
-      <div class="fakeimg" style="background-image: url(img/blog1.png); height:400px;">Image</div>
-      <p>Some text..</p>
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-    </div>
-    <hr style=" background:black">
-</div>
-</div>
-
-
-
-<!--Connect-->
 <div id="contactUs">
 <div class="container-fluid padding bg-white">
 <div class="row text-center padding">
@@ -157,7 +124,7 @@
 <footer>
   <div class="container-fluid padding">
   <div class="row text-center text-light">
-    <div class="col-12">
+    <div class="col-md-12">
          <img src="img/sae.png">
          <hr class="light">
          <p>000-000-0000</p>
@@ -169,6 +136,15 @@
   </div>
   </div>
 </footer>
+<script>
+var modal = document.getElementById('id01');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
 
 
 </body>
