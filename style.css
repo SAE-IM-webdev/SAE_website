@@ -214,7 +214,7 @@ html,body{
     padding: 50px 30px;
     background: url("img/car2.jpg");
     color: floralwhite; }
-  
+
     .jumbotron h1{
       padding-top: 40px;
       text-align: left;
@@ -222,28 +222,28 @@ html,body{
       font-size: 5em;
       font-style: italic;
     }
-  
+
     .leftcolumn {
     float: left;
     width: 75%;
   }
-  
-  
+
+
   .rightcolumn {
     float: left;
     width: 25%;
     padding-left: 20px;
   }
-  
-  
+
+
   .fakeimg {
     background-color: #aaa;
     width: 90%;
     padding: 20px;
   }
-  
-  
-  
+
+
+
   .card {
     background-color: white;
     padding: 20px;
@@ -284,7 +284,7 @@ html,body{
     float: left;
     width: 50%;
   }
-  
+
   .modal {
     display: none;
     position: fixed;
@@ -313,7 +313,7 @@ html,body{
     font-weight: bold;
     color: black;
   }
-  
+
   .close:hover,
   .close:focus {
     color: #4e97cc;
@@ -324,13 +324,18 @@ html,body{
     clear: both;
     display: table;
   }
-  
+
   @media screen and (max-width: 300px) {
     .cancelbtn, .signupbtn {
        width: 100%;
     }
   }
-  
+.img2{
+  float: center;
+    width:  250px;
+    height: 192px;
+    background-size: cover;
+}
 
 
 
